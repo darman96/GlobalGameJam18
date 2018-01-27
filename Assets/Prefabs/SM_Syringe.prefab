@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: 4565875633551276}
   - component: {fileID: 33185619089099810}
   - component: {fileID: 23842971782372430}
+  - component: {fileID: 114074385987035838}
   m_Layer: 0
   m_Name: SM_Syringe
   m_TagString: Untagged
@@ -228,3 +229,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1296953284712778}
   m_Mesh: {fileID: 4300004, guid: 60475f736a45e204d8d5b7909a23f5a9, type: 3}
+--- !u!114 &114074385987035838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1591578324822924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40df23dcdc1774341aa964c972b96235, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clean: 1

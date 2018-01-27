@@ -293,7 +293,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
-  syringePrefabs: []
+  syringePrefabs:
+  - {fileID: 1591578324822924, guid: 0490d76a85824004cad5a01988392ebc, type: 2}
+  - {fileID: 1673924957221136, guid: 15efc9a2e3bbaa2478f3c57c811853a6, type: 2}
   syringeSocket: {fileID: 0}
 --- !u!1 &769015515
 GameObject:
@@ -514,6 +516,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1673924957221136, guid: 15efc9a2e3bbaa2478f3c57c811853a6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15efc9a2e3bbaa2478f3c57c811853a6, type: 2}
   m_IsPrefabParent: 0
@@ -567,6 +573,10 @@ Prefab:
     - target: {fileID: 4565875633551276, guid: 0490d76a85824004cad5a01988392ebc, type: 2}
       propertyPath: m_LocalScale.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1591578324822924, guid: 0490d76a85824004cad5a01988392ebc, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0490d76a85824004cad5a01988392ebc, type: 2}
